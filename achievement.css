@@ -1,0 +1,99 @@
+.achievementContainer{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    width: 700px;
+    border-radius: 5px;
+    position: relative;
+    border: 2px solid var(--snd-color);;
+}
+
+.achievementRewardImage{
+    width: 150px;
+}
+.rewardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+.imageSubtitle{
+    font-size: 12px;
+}
+
+.achievementTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.achievementDescription{
+    margin-top: 15px;
+}
+
+.achievementDescription{
+    font-size: 14px;
+}
+
+.achievementProgressBarContainer{
+    margin-bottom: 3%;
+}
+
+
+
+.achievementProgressBarsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.achievementTopFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.achievementProgressBarTitle{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.marginLeftAchievement{
+    margin-left: 5%;
+}
+
+.rewardImage{
+    position: relative;
+}
+
+.imageSubtitle{
+    text-align: center;
+}
+
+.marginTopAchievement{
+    margin-top: 3%;
+}
+
+.progress-bar-container{
+    width: 100%;
+}
+
+.rewardLeftText{
+    margin-right:5%;
+}
+.closeBTNAchievement{
+    position: absolute;
+    right: 1%;
+    z-index: 2;
+}
+
+.achievementList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

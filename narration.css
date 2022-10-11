@@ -1,0 +1,68 @@
+.narrationList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    color: var(--main-color);
+    font-family: var(--font-family);
+}
+
+.narrationList .navTopButton{
+    width: 300px;
+}
+.narrationElement{
+    z-index: 99999;
+    width: 500px;
+    height: 500px;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.narrationTextFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#narrationName{
+    background-image:  url("/pictures/vikingship.png");
+}
+.narrationTitle{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.narrationNavText{
+    margin: auto 30px auto 30px;
+    font-size: 16px;
+
+}
+
+.narrationNr{
+    position: absolute;
+    left: 5%;
+}
+.narrationNavText{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropbtn{
+    padding: 25px !important;
+    border-radius: 5px;
+}
+.close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+

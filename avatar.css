@@ -1,0 +1,171 @@
+.avatarBorder{
+    border: 10px solid transparent;
+    padding: 15px;
+}
+
+.avatarImage{
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    position: relative;
+}
+
+.imageAndBorder{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#sticker1{
+    top: 5%;
+    left: 5%;
+}
+
+#sticker2{
+    bottom: 5%;
+    right: 5%;
+}
+
+.stickers{
+    width: 50px;
+    position: absolute;
+}
+
+.avatarLevel{
+    text-align: center;
+    font-size: 20px;
+
+}
+.avatarLevelBox{
+    margin: auto;
+    width: 50px;
+    border: 2px solid var(--snd-color);
+    border-radius: 5px;
+    position: relative;
+}
+.avatarContainer{
+    font-family: var(--font-family);
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.avatarLevelProgressContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.avatarLevelProgressOuterContainer{
+
+    position: absolute;
+    right: 50px;
+    bottom: -50%;
+    background-color: var(--main-bg-color);
+    width: 300px;
+    height: 150px;
+    border: 2px solid var(--snd-color);
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 3;
+    display: none;
+}
+.marginBottomAvatarLevelProgressBar{
+    margin-bottom: 12%;
+}
+.avatarLevelText{
+    font-size: 16px;
+    font-weight: bold;
+}
+.levelProgressTitle{
+    font-size: 18px;
+}
+
+.progress-bar-container{
+    width: 60%;
+}
+
+.avatarContainer:hover .avatarLevelProgressOuterContainer  {
+    display: flex;
+}
+
+.avatarName{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* AvatarSettings Style */
+
+.avatarSettingImagesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+    height: 200px;
+
+}
+
+.avatarSettingsContainer{
+    width: 500px;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+
+}
+
+.avatarImagePanel{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: var(--snd-bg-color);
+}
+.avatarImagePanel:hover{
+    background-color: var(--snd-color);
+    cursor: pointer;
+}
+.avatarImagePreview{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+}
+.carouselTitle{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-bg-color);
+}
+.carouselContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.carouselSubmitButton{
+    margin: auto;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-weight: bold;
+    border-radius: 3px;
+    display: none;
+}
+
+.carouselSubmitButton:hover{
+    color: var(--snd-color);
+}

@@ -1,0 +1,112 @@
+.missionList{
+    font-family: var(--font-family);
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.missionList .navTopButton{
+    width: 300px;
+}
+
+
+.missionElementTitle{
+   font-weight: bold;
+}
+
+.missionElementSubtitle{
+    font-size: 12px;
+}
+
+.navElement:hover .missionElementTitle  {
+    color: var(--snd-color);
+}
+
+.navElement:hover .missionElementSubtitle  {
+    color: var(--snd-color);
+}
+
+
+
+.moreMissionInformation{
+    right: -410px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.moreMissionInformationTitle{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+.moreMissionInformationText{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.missionRewardImage{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.missionProgressBar{
+    margin-top: 30px;
+}
+.rewardElement{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pinnedMoreMissionInformation{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid var(--snd-color);
+    border-radius: 5px;
+}
+
+.pinnedMissionLastELement{
+    margin-bottom: 20px;
+}
+
+.pinnedMission{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.pinnedMissionTitle{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pinnedMissionText{
+    text-align: center;
+    font-size: 12px;
+}
+
+.pinnedMission{
+    width: 400px;
+    height: 150px;
+}
+
+
+
+

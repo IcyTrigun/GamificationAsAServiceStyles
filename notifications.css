@@ -1,0 +1,11 @@
+.toast-info{
+    background-color: var(--main-bg-color);
+}
+
+.toast-close-button:hover{
+    color: var(--snd-color);
+}
+
+/*#toast-container:hover .toast{
+    color: var(--snd-color) !important;
+} */
